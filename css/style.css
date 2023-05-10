@@ -13,9 +13,46 @@ RESET
  */
 
  body{
-    font-family: Arial, Helvetica, sans-serif;
- }
+   font-family:'Open Sans', sans-serif;
+}
+ul{
+
+   list-style-type: none;
+
+}
+li{
+   display: inline-block;
+}
+a{
+   display: inline-block;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+   margin-left: 10px;
+   margin-bottom: 15px;
+}
+.login-button{
+
+ display: inline-block;
+ text-align: center;
+ white-space: nowrap;
+ color: #000000;
+ text-decoration: none;
+ line-height: 1;
+ font-weight: normal;
+ font-size: 12px;
+ background-color: #FFFFFF;
+ border-radius: 30px;
+ padding: 10px 14px;
+ border: 0px solid #006FE6;
+ cursor: pointer;
+
  
+
+
+
+}
+
  .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -30,34 +67,29 @@ RESET
 .debug header{
    display: flex;
    height: 70px;
-   background-color: #ADD8E6;  
+   background-color: #255EE9;  
    justify-content: center;
    align-content: center;
 }
 .nav-container{
    display: flex;
-   background-color: #DAA520;
+   background-color: #255EE9;
    width: 1000px;
    height: 40px;
    align-items: center;
-   margin-top: 15px;
+   margin-top: 25px;
    justify-content: space-between;
-   border: 3px dashed black;
    
 }
 
 .logo{
    margin-left: 4px;
    line-height: 2.2em;
-   width: 25%;
-   border-right: 2px dashed black;
+   width: 10%;
 }
 .login{
-   text-align: end;
    line-height: 2.2em;
    width: 25%;
-   border-left: 2px dashed black;
-   margin-right: 4px;
 }
 
 /*
@@ -77,21 +109,60 @@ MAIN
 SECTION 1
 
 */
-
 .my-row-1{
+  background-image: url(../img/jumbo.png); 
+  background-size: cover;
+}
+.h1-section-1{
 
-   background-color: #00008B;
-   height: 450px;
-   padding-top: 50px;
+   color: white;
+
 }
 
+
 .container-main-1{
-   background-color: #EE82EE;
+   padding-top: 50px;
    width: 750px;
    height: 350px;
-   border: 2px dashed black;
-   margin-bottom: 50px;
-   margin-left: 370px;
+   margin: 0 auto;
+   text-align: center;
+}
+.button-mac{
+ margin-top: 10px;
+ display: inline-block;
+ text-align: center;
+ white-space: nowrap;
+ color: #000000;
+ text-decoration: none;
+ line-height: 1;
+ font-weight: normal;
+ font-size: 22px;
+ background-color: #FFFFFF;
+ border-radius: 30px;
+ padding: 10px 14px;
+ border: 0px solid #006FE6;
+ cursor: pointer;
+
+}
+
+.discord-button{
+
+ margin-top: 10px;
+ display: inline-block;
+ text-align: center;
+ white-space: nowrap;
+ color: white;
+ text-decoration: none;
+ line-height: 1;
+ font-weight: normal;
+ font-size: 22px;
+ background-color: black;
+ border-radius: 30px;
+ padding: 10px 14px;
+ border: 0px solid #006FE6;
+ cursor: pointer;
+
+
 
 }
 
@@ -118,16 +189,22 @@ SECTION 2
    align-items: center;
 }
 .container-main-3{
-   background-color: #FFC0CB;
-   width: 30%;
+   width: 20%;
    height: 450px;
-   border: 2px dashed black;
+   padding-right: 50px;
+   padding-top: 60px;
 }
 .container-main-2{
-   background-color: #1E90FF;
-   width: 50%;
+   background-image: url(img\item1.svg);
+   width: 45%;
    height: 450px;
-   border: 2px dashed black;
+}
+
+.item-1{
+   width: 550px;
+   height: 550px;
+   padding-bottom: 100px;
+
 }
 
 /* 
@@ -145,16 +222,22 @@ SECTION 3
    align-items: center;
 }
 .container-main-4{
-   background-color: #FFC0CB;
-   width: 30%;
+   background-color: #D3D3D3;
+   width: 20%;
    height: 450px;
-   border: 2px dashed black;
+   padding-top: 70px;
 }
 .container-main-5{
-   background-color: #1E90FF;
-   width: 50%;
+   background-image: url(img\item2.svg);
+   width: 35%;
    height: 450px;
-   border: 2px dashed black;
+}
+.item-2{
+
+   width: 500px;
+   height: 500px;
+   padding-bottom: 90px;
+   margin-left: 30px;
 }
 
 /* 
@@ -172,16 +255,21 @@ SECTION 4
    align-items: center;
 }
 .container-main-7{
-   background-color: #FFC0CB;
-   width: 30%;
+   width: 20%;
    height: 450px;
-   border: 2px dashed black;
+   padding-top: 50px;
+   
 }
 .container-main-6{
-   background-color: #1E90FF;
-   width: 50%;
+   width: 40%;
    height: 450px;
-   border: 2px dashed black;
+}
+
+.item-3{
+   width: 550px;
+   height: 550px;
+   padding-bottom: 100px;
+
 }
 
 
@@ -193,18 +281,59 @@ SECTION 5
 .my-row-5{
 
    background-color: #D3D3D3;
-   height: 800px;
+   height: 900px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
 .container-main-8{
-   background-color: #228B22;
    width: 80%;
    height: 700PX;
-   border: 2px dashed black;
 }
+
+.h1-section-5{
+
+   text-align: center;
+
+}
+
+.item-4{
+
+   padding-left: 200px;
+
+}
+
+.p-section-5{
+
+   text-align: center;
+
+}
+.button-mac-2{
+   margin-top: 10px;
+   margin-left: 500px;
+   display: inline-block;
+   text-align: center;
+   white-space: nowrap;
+   color: white;
+   text-decoration: none;
+   line-height: 1;
+   font-weight: normal;
+   font-size: 22px;
+   background-color:#8EA1E1;
+   border-radius: 30px;
+   padding: 10px 14px;
+   border: 0px solid #006FE6;
+   cursor: pointer;
+  
+  }
+
+  .stars{
+
+   margin-left: 350px;
+
+
+  }
 
 /* 
 
@@ -214,24 +343,55 @@ SECTION 6
 .my-row-6{
 
    background-color: #222629;
-   height: 750px;
+   height: 550px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
 .container-main-9{
-   background-color: #F08080;
-   width: 30%;
-   height: 600PX;
-   border: 2px dashed black;
+   width: 20%;
+   height: 400PX;
 }
 
 .container-main-10{
-   background-color: #20B2AA;
-   width: 13%;
-   height: 600PX;
-   border: 2px dashed white;
+   width: 10%;
+   height: 400PX;
+}
+
+.h1-section-6{
+
+      color:#687CC4;
+      padding-bottom: 20px;
+
+}
+
+.h4{
+
+      color:#687CC4 ;
+      padding-bottom: 20px;
+}
+.ita{
+   width: 25px;
+   height: 20px;
+}
+.p-section-6{
+   color: white;
+   display: inline-block
+   
+
+}
+.social{
+
+   color: #FFFFFF;
+   font-size: 20px;
+
+}
+
+.section-6-li{
+   display: flex;
+   color: white;
+   flex-direction: column;
 }
 
 /* 
@@ -251,7 +411,7 @@ footer{
 
 .footer-container{
    display: flex;
-   background-color: #7FFFD4;
+   background-color: #222629;
    width: 1250px;
    height: 60px;
    align-items: center;
@@ -263,12 +423,9 @@ footer{
    margin-left: 4px;
    line-height: 2.2em;
    width: 5%;
-   border: 2px dashed black;
-   background-color:  #F08080;
    text-align: center;
 }
-.button{
-   text-align: end;
+.button-footer{
    line-height: 2.2em;
    width: 6%;
    border: 2px dashed black;
