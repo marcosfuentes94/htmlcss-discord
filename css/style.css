@@ -46,11 +46,7 @@ a{
  padding: 10px 14px;
  border: 0px solid #006FE6;
  cursor: pointer;
-
- 
-
-
-
+ margin-bottom: 15px;
 }
 
  .container{
@@ -426,11 +422,14 @@ footer{
    text-align: center;
 }
 .button-footer{
-   line-height: 2.2em;
-   width: 6%;
-   border: 2px dashed black;
-   margin-right: 4px;
-   background-color: #F08080;
    text-align: center;
-
+   color: white;
+   text-decoration: none;
+   line-height: 1;
+   font-size: 12px;
+   background-color:#8EA1E1;
+   border-radius: 30px;
+   padding: 10px 14px;
+   cursor: pointer;
+   margin-bottom: 20px;
 }
